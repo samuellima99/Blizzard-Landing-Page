@@ -84,7 +84,6 @@ export const GlobalStyles = createGlobalStyle`
     @media(max-width: 1440px)  {
       max-width: 1216px;
     }
-
   }
 
 `;

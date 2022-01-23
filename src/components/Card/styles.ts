@@ -31,6 +31,14 @@ export const Container = styled.div`
   &:hover {
     height: 463px;
   }
+
+  @media (max-width: 600px) {
+    max-width: 263px;
+  }
+
+  @media (max-width: 480px) {
+    max-width: 300px;
+  }
 `;
 
 export const ImageWrapper = styled.div<ImageWrapperProps>`

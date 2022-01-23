@@ -232,4 +232,50 @@ export const BattlenetContainer = styled.section`
       padding-left: 74px;
     }
   }
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+
+    height: auto;
+
+    .battlenet-left {
+      padding-left: 0;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      h3 {
+        text-align: center;
+      }
+    }
+
+    .battlenet-right {
+      height: 400px;
+
+      .battlenet {
+        width: 72%;
+        top: 600px;
+      }
+
+      .install {
+        width: 54%;
+        top: 730px;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    .battlenet-right {
+      .battlenet {
+        width: 100%;
+        top: 650px;
+      }
+
+      .install {
+        width: 75%;
+        top: 750px;
+      }
+    }
+  }
 `;

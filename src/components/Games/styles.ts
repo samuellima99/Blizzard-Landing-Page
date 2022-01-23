@@ -104,4 +104,79 @@ export const GamesWrapper = styled.div`
       }
     }
   }
+
+  @media (max-width: 800px) {
+    .container {
+      max-width: 600px;
+    }
+
+    header {
+      .header-left {
+        h3 {
+          max-width: 0;
+          font-size: 1.5rem;
+        }
+      }
+
+      .more-games {
+        display: none;
+      }
+    }
+
+    main {
+      .games-list {
+        justify-content: space-between;
+      }
+    }
+  }
+
+  @media (max-width: 600px) {
+    .container {
+      max-width: 550px;
+    }
+
+    header {
+      .header-left {
+        h3 {
+          font-size: 1.125rem;
+        }
+      }
+    }
+
+    main {
+      .games-list {
+        justify-content: flex-start;
+        column-gap: 24px;
+
+        .more-games-blizzard {
+          max-width: 263px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    .container {
+      max-width: 332px;
+    }
+
+    header {
+      .header-left {
+        h3 {
+          font-size: 1.125rem;
+        }
+      }
+    }
+
+    main {
+      .games-list {
+        justify-content: center;
+        column-gap: 24px;
+
+        .more-games-blizzard {
+          max-width: 300px;
+        }
+      }
+    }
+  }
 `;
