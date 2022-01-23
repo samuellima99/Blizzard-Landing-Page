@@ -1,7 +1,7 @@
 <p align="center">
-  <img src="/assets/logo.png" alt="Blizzard" />
+  <img src="./public/assets/logo.png" alt="Blizzard" />
   
-  <img src="/assets/github-banner.png" alt="Landing Page Blizzard">
+  <img src="./public/assets/github-banner.png" alt="Landing Page Blizzard">
 
 </p>
 
